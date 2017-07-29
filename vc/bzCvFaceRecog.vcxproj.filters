@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FaceAlignment">
+      <UniqueIdentifier>{d295fa03-5318-4c6a-9371-ef4a3107964f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceAlignment\include">
+      <UniqueIdentifier>{a2222f36-422a-4068-9641-c425e8c4ecd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceAlignment\src">
+      <UniqueIdentifier>{5bc523a5-ad5d-4758-af34-5ce64eaa009b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceDetection">
+      <UniqueIdentifier>{6c3995dc-515a-4c8d-990b-ab5283aa70ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceDetection\include">
+      <UniqueIdentifier>{5cc18785-520d-4dae-a2e9-6a517d76e04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceDetection\src">
+      <UniqueIdentifier>{fb615103-70dc-43b5-a8b3-6039a0aa6d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceIdentification">
+      <UniqueIdentifier>{42d4cf85-7aaf-474c-9627-09b14e2cbd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceIdentification\include">
+      <UniqueIdentifier>{48aeab15-03a7-4773-b5ab-9ca6b78290fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceIdentification\src">
+      <UniqueIdentifier>{d86d1291-4e05-4603-999d-ed6958179ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceIdentification\tools">
+      <UniqueIdentifier>{05a27f07-a545-4d23-a254-fe57898f667b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FaceAlignment\include\cfan.h">
+      <Filter>FaceAlignment\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceAlignment\include\common.h">
+      <Filter>FaceAlignment\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceAlignment\include\face_alignment.h">
+      <Filter>FaceAlignment\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceAlignment\include\sift.h">
+      <Filter>FaceAlignment\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\classifier.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\common.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\detector.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\face_detection.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\feature_map.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\fust.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\model_reader.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\aligner.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\bias_adder_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\blob.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\bn_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\common.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\common_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\conv_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\eltwise_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\face_identification.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\hyper_param.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\inner_product_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\log.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\log_.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\math_functions.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\max_pooling_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\net_factory.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\pad_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\recognizer.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\spatial_transform_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\tform_maker_net.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\include\viplnet.h">
+      <Filter>FaceIdentification\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\src\bmat_types.h">
+      <Filter>FaceIdentification\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceIdentification\src\LOG.h">
+      <Filter>FaceIdentification\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\util\image_pyramid.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\util\math_func.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\util\nms.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\io\lab_boost_model_reader.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\io\surf_mlp_model_reader.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\feat\lab_feature_map.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\feat\surf_feature_map.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\classifier\lab_boosted_classifier.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\classifier\mlp.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceDetection\include\classifier\surf_mlp.h">
+      <Filter>FaceDetection\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FaceAlignment\src\cfan.cpp">
+      <Filter>FaceAlignment\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceAlignment\src\face_alignment.cpp">
+      <Filter>FaceAlignment\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceAlignment\src\sift.cpp">
+      <Filter>FaceAlignment\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\face_detection.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\fust.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\bias_adder_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\blob.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\bn_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\common_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\conv_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\eltwise_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\inner_product_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\log.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\math_functions.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\max_pooling_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\pad_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\spatial_transform_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\src\tform_maker_net.cpp">
+      <Filter>FaceIdentification\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\util\image_pyramid.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\util\nms.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\io\lab_boost_model_reader.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\io\surf_mlp_model_reader.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\feat\lab_feature_map.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\feat\surf_feature_map.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\classifier\lab_boosted_classifier.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\classifier\mlp.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceDetection\src\classifier\surf_mlp.cpp">
+      <Filter>FaceDetection\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\tools\aligner.cpp">
+      <Filter>FaceIdentification\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FaceIdentification\tools\face_identification.cpp">
+      <Filter>FaceIdentification\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

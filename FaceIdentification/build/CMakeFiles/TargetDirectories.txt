@@ -1,0 +1,1 @@
+/HISI/ARMLinux/Hi3536_SDK_V1.0.3.0/package/mpp/SeetaFaceEngine/FaceIdentification/build/CMakeFiles/viplnet.dir
